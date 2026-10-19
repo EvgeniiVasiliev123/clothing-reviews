@@ -1,0 +1,33 @@
+{
+  "cleaning": {
+    "rows": 23465,
+    "duplicates_removed": 21,
+    "missing_text": 825,
+    "missing_class": 14,
+    "invalid_rating": 0,
+    "recommended_rate": 0.8222032814830599,
+    "items": 1206,
+    "rating5_not_recommended": 25,
+    "rating1_recommended": 16,
+    "rows_raw": 23486
+  },
+  "overall": 0.8222032814830599,
+  "age_test": {
+    "chi2": 31.931468349579454,
+    "p_value": 1.9757973854173043e-06,
+    "cramers_v": 0.0368891939384719
+  },
+  "items_meta": {
+    "prior_a": 54.75247097104793,
+    "prior_b": 11.827745509667778,
+    "items_analyzed": 192,
+    "threshold": 0.75,
+    "overdispersion": {
+      "chi2": 497.69597251726964,
+      "df": 191,
+      "ratio": 2.6057380760066473,
+      "p_value": 3.3384915039258695e-29
+    },
+    "flagged_p_gt_0_5": 5
+  }
+}
